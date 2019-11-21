@@ -38,7 +38,7 @@ CORS makes sure that the resource that you're requesting (the Spotify API, in th
 ## When does CORS get involved?
 
 For us in this class, CORS will take effect when:
-* Making API calls through things like AJAX (which uses `XmlHttpRequest` under the covers) or using `fetch` which is a more modern alternative.
+* Making API calls through things like AJAX (which uses `XmlHttpRequest` under the hood) or using `fetch` which is a more modern alternative.
 * Loading `@font-face`s in CSS
 
 There are other circumstances that will invoke CORS, but most are not likely to be encountered in the scope of this class.
